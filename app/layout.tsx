@@ -1,6 +1,6 @@
+
 import Header from "@/components/header";
 import "./globals.css";
-// import { Analytics } from '@vercel/analytics/react';
 
 import { Inter } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/active-section-context";
@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import VercelAnalytics from "@/components/VercelAnalytics";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,13 +34,13 @@ export default function RootLayout({
 					<ActiveSectionContextProvider>
 						<Header />
 						{children}
+						<VercelAnalytics></VercelAnalytics>
 						<Footer />
 
 						<Toaster position="top-right" />
 						<ThemeSwitch />
 					</ActiveSectionContextProvider>
 				</ThemeContextProvider>
-				{/* <Analytics /> */}
 
 			</body>
 		</html>
