@@ -19,7 +19,7 @@
 		"clsx": "^1.2.1",
 		"eslint": "8.43.0",
 		"eslint-config-next": "latest",
-		"framer-motion": "^10.12.17",
+		"framer-motion": "^12.25.0",
 		"lucide-react": "^0.510.0",
 		"next": "latest",
 		"postcss": "^8.5.6",
