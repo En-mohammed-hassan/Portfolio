@@ -6,7 +6,6 @@ import onePlace from "@/public/onePlace.png";
 import { FaLaptopCode } from "react-icons/fa";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import { MdOutlineSupportAgent } from "react-icons/md";
 import { BsFillPatchCheckFill } from "react-icons/bs";
 export const links = [
 	{
@@ -37,44 +36,84 @@ export const links = [
 
 export const experiencesData = [
 	{
-		title: "Graduated University",
-		location: "Damascus, Syria",
+		title: "Bachelor Degree - Computer and Automation Engineering",
+		location: "Damascus University, Damascus, Syria",
 		description:
-			"Completed a Bachelor's degree in Computer and Automation Engineering at Damascus University.",
+			"Completed Bachelor's degree in Computer and Automation Engineering.",
 		icon: React.createElement(LuGraduationCap),
-		date: "2019",
+		date: "10/2012 - 10/2019",
 	},
 	{
-		title: "Manager – Own Market",
-		location: "Latakia, Syria",
+		title: "Manager",
+		location: "Own Market, Latakia, Syria",
 		description:
-			"Managed operations, sales, and technical maintenance in a mobile and computer retail shop.",
+			"Sale and maintain mobiles and computers. Administration, Operations, and Management.",
 		icon: React.createElement(CgWorkAlt),
-		date: "2019 - 2021",
+		date: "09/2019 - 09/2021",
 	},
 	{
-		title: "Technical Support Engineer",
-		location: "Damascus, Syria",
-		description:
-			"Provided government IT support, including network setup, system administration, and software configuration.",
-		icon: React.createElement(MdOutlineSupportAgent),
-		date: "2021 - 2023",
-	},
-	{
-		title: "Certified in Web & Network Technologies",
+		title: "Front End Development",
 		location: "Syrian Computer Society",
 		description:
-			"Completed courses in Front-End Development, Back-End Development, and Network Professional Administration.",
+			"Completed Front End Development course.",
 		icon: React.createElement(BsFillPatchCheckFill),
 		date: "2022",
 	},
 	{
-		title: "Full-Stack Developer (Freelancer)",
-		location: "Remote / Damascus",
+		title: "Back End Development",
+		location: "Syrian Computer Society",
 		description:
-			"Freelancing with a modern stack: Next.js, React, Tailwind, and more. Delivering scalable, responsive web apps and reusable components.",
+			"Completed Back End Development course.",
+		icon: React.createElement(BsFillPatchCheckFill),
+		date: "2022",
+	},
+	{
+		title: "Network Professional Admin",
+		location: "Syrian Computer Society",
+		description:
+			"Completed Network Professional Administration course.",
+		icon: React.createElement(BsFillPatchCheckFill),
+		date: "2022",
+	},
+	{
+		title: "Natural Language Processing",
+		location: "Lifelong Learning Center / SVU",
+		description:
+			"Completed Natural Language Processing course.",
+		icon: React.createElement(BsFillPatchCheckFill),
+		date: "2023",
+	},
+	{
+		title: "Master in Web Science",
+		location: "Syrian Virtual University, Damascus, Syria",
+		description:
+			"Master's degree in Web Science.",
+		icon: React.createElement(LuGraduationCap),
+		date: "01/2023 - Present",
+	},
+	{
+		title: "Next Fullstack Developer (Freelancer)",
+		location: "Damascus, Syria",
+		description:
+			"Determining the structure and design of web pages and building reusable codes. Developing new user-facing features and delivering user-friendly experiences.",
 		icon: React.createElement(FaLaptopCode),
-		date: "2023 - Present",
+		date: "09/2023 - Present",
+	},
+	{
+		title: "Front End Developer",
+		location: "Mad Fox, Damascus, Syria",
+		description:
+			"Building and optimizing responsive user interfaces. Collaborating with designers and backend teams. Ensuring all projects meet modern web standards and best practices.",
+		icon: React.createElement(CgWorkAlt),
+		date: "06/2025 - Present",
+	},
+	{
+		title: "Front End Developer",
+		location: "rmz, Damascus, Syria",
+		description:
+			"Implement responsive and accessible UI components using modern front-end technologies. Collaborate with cross-functional teams to integrate frontend solutions with backend systems. Ensure performance, scalability, and compliance with modern web standards.",
+		icon: React.createElement(CgWorkAlt),
+		date: "09/2026 - Present",
 	},
 ] as const;
 
